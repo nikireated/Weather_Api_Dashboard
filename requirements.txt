@@ -1,0 +1,4 @@
+git init
+printf ".env\n**/__pycache__/\n**/.ipynb_checkpoints/\n**/.DS_Store\n" > .gitignore  #The command printf ".env\n**/__pycache__/\n**/.ipynb_checkpoints/\n**/.DS_Store\n" > .gitignore will create (or overwrite if it already exists) a file named .gitignore in the current directory
+git add .gitignore
+git commit -m "chore: init project"
